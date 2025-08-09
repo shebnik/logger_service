@@ -1,0 +1,23 @@
+name: logger_service
+description: "A comprehensive logging service with file output, console output, and Firebase Crashlytics integration."
+version: 0.0.1
+homepage:
+
+environment:
+  sdk: ^3.8.1
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  logger: ^2.6.1
+  firebase_crashlytics: ^5.0.0
+  path_provider: ^2.1.5
+  path: ^1.9.1
+  share_plus: ^11.0.0
+  url_launcher: ^6.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
